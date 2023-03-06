@@ -1,1 +1,180 @@
-<mxfile host="app.diagrams.net" modified="2023-03-03T11:51:08.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.20" etag="9Kcwe8VrLx5HOpwAZgVk" type="github"><diagram name="第 1 页" id="lnVgEa4AfWWvN1bszDP_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-06T03:22:43.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="dE4_S4UFSMXTKyZONBwH" version="21.0.2" type="github">
+  <diagram name="第 1 页" id="lnVgEa4AfWWvN1bszDP_">
+    <mxGraphModel dx="2901" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VN22D4NKbQIU7ztmJatd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-6" target="VN22D4NKbQIU7ztmJatd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-6" value="conf.json&lt;br&gt;config.yaml&lt;br&gt;&lt;br&gt;start_cluster.bat&lt;br&gt;kill_cluster.bat&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;start_cluster.sh&lt;br&gt;kill_cluster.sh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-168" y="450" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-7" target="VN22D4NKbQIU7ztmJatd-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="399.5698924731182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-7" target="VN22D4NKbQIU7ztmJatd-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-7" target="VN22D4NKbQIU7ztmJatd-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="107" y="710" />
+              <mxPoint x="322" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-7" value="init.py" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="500" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-14" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="VN22D4NKbQIU7ztmJatd-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="520" as="sourcePoint" />
+            <mxPoint x="620" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-11" target="VN22D4NKbQIU7ztmJatd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-11" target="VN22D4NKbQIU7ztmJatd-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="710" />
+              <mxPoint x="320" y="710" />
+              <mxPoint x="320" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-11" value="gen_config.py" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-17" target="VN22D4NKbQIU7ztmJatd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-17" target="VN22D4NKbQIU7ztmJatd-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="340" />
+              <mxPoint x="890" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-17" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;conf.json&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;conf.worldx.json&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;conf.worldx.common.json(linux)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;config.yam&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;config.worldx.yaml&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;config.worldx.common.yaml(linux)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;start_cluster.bat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;start_cluster.worldx.bat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;kill_cluster.bat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;kill_cluster.worldx.bat&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;start_cluster.sh&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;start_cluster.worldx.sh&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;start_cluster.worldx.common.sh(linux)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;kill_cluster.sh&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;kill_cluster.worldx.sh&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;kill_cluster.worldx.common.sh(linux)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-18" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.拷贝worldx配置文件和脚本&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. 编辑worldx配置文件(工号作为clusterid)&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;3. 修改worldx脚本使用对应配置文件&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;4. 如果没有建立软连接，调用下软链接脚本&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-54.25" y="260" width="322.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-20" target="VN22D4NKbQIU7ztmJatd-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-20" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;conf.json&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;conf.worldx.json&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;conf_220902.worldx.json&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;conf.worldx.common.json(linux)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;config.yam&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;config.worldx.yaml&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;config.worldx.common.yaml(linux)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;start_cluster.bat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;start_cluster.worldx.bat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;kill_cluster.bat&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;kill_cluster.worldx.bat&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;start_cluster.sh&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;start_cluster.worldx.sh&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;start_cluster.worldx.common.sh(linux)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;kill_cluster.sh&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;kill_cluster.worldx.sh&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;kill_cluster.worldx.common.sh(linux)&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="380" width="230" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-23" value="1. 从conf.json拷贝生成conf_clusterId.world.json&lt;br&gt;2. 编辑conf_clusterId.world.json配置文件&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;3. 解析conf_clusterId.worldx.json生成config.ini文件&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="260" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-25" value="XServerManager.exe" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213" y="870" width="217" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-26" value="设置-&amp;gt;执行初始化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-25">
+          <mxGeometry y="30" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-27" value="全部启动" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-25">
+          <mxGeometry y="60" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-69" value="全部关闭" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-25">
+          <mxGeometry y="90" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-28" value="单个进程启动" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-25">
+          <mxGeometry y="120" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-32" target="VN22D4NKbQIU7ztmJatd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-32" value="初始化&lt;br&gt;LoginInWindows结束后" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="770" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-26" target="VN22D4NKbQIU7ztmJatd-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-38" target="VN22D4NKbQIU7ztmJatd-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-44" value="windows" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VN22D4NKbQIU7ztmJatd-42">
+          <mxGeometry x="0.1412" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-38" target="VN22D4NKbQIU7ztmJatd-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-45" value="linux" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VN22D4NKbQIU7ztmJatd-43">
+          <mxGeometry x="0.1529" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-38" value="start_cluster.py&lt;br&gt;kill_cluster.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.158;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-39" target="VN22D4NKbQIU7ztmJatd-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-72" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VN22D4NKbQIU7ztmJatd-62">
+          <mxGeometry x="0.1364" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-39" value="windows_controller.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-40" target="VN22D4NKbQIU7ztmJatd-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-73" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VN22D4NKbQIU7ztmJatd-63">
+          <mxGeometry x="-0.2047" y="-4" relative="1" as="geometry">
+            <mxPoint x="15" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-40" value="linux_controller.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-47" value="cluster_220902(目录)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="405" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-48" value="start_engine.sh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-47">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-49" value="kill_engine.sh" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-47">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-50" value="game0.sh, gate0.sh..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-47">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-54" value="cluster_220902(目录)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="610" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-55" value="start_engine.bat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-54">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-56" value="kill_engine.bat" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-54">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-57" value="game0.bat, gate0.bat..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="VN22D4NKbQIU7ztmJatd-54">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-70" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-69" target="VN22D4NKbQIU7ztmJatd-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-28" target="VN22D4NKbQIU7ztmJatd-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VN22D4NKbQIU7ztmJatd-74" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VN22D4NKbQIU7ztmJatd-27" target="VN22D4NKbQIU7ztmJatd-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
